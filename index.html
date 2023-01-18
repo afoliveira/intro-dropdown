@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intro Section Dropdown</title>
+  <link href="./css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header id="header">
+    <a id="logo" href="/">
+      <img src="./assets/images/logo.svg" alt="Site Logo" />
+    </a>
+    <nav id="nav">
+      <button class="close-menu">
+        <img src="./assets/images/icon-close-menu.svg" alt="Close menu" />
+      </button>
+      <button id="btn-mobile">
+        <img src="./assets/images/icon-menu.svg" alt="Menu Mobile" />
+      </button>
+      <div>
+        <ul id="menu">
+          <li>
+            <ul class="menu-item">
+              <li class="menu-with-submenu">
+                <a href="/">
+                  Features
+                  <img class="arrow" src="./assets/images/icon-arrow-down.svg" alt="Arrow Down">
+                </a>
+                <ul class="submenu features-submenu">
+                  <li>
+                    <a href="/">
+                      <img src="./assets/images/icon-todo.svg" alt="">
+                      Todo List
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <img src="./assets/images/icon-calendar.svg" alt="">
+                      Calendar
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <img src="./assets/images/icon-reminders.svg" alt="">
+                      Reminders
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      <img src="./assets/images/icon-planning.svg" alt="">
+                      Planning
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-with-submenu">
+                <a href="/">
+                  Company
+                  <img class="arrow" src="./assets/images/icon-arrow-down.svg" alt="Arrow Down">
+                </a>
+                <ul class="submenu company-submenu">
+                  <li>
+                    <a href="/">
+                      History
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      Our team
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/">
+                      Blog
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="/">Carrers</a></li>
+              <li><a href="/">About</a></li>
+            </ul>
+          </li>
+          <li>
+            <ul class="menu-item menu-right">
+              <li class="login"><a href="/">Login</a></li>
+              <li class="register"><a href="/">Register</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content">
+    <article class="content-text">
+      <h1 class="title">Make remote work</h1>
+      <p class="description">
+        Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.
+      </p>
+      <a class="learn-more" href="/">Learn more</a>
+
+      <ul class="clients">
+        <li>
+          <img src="./assets/images/client-databiz.svg" alt="databiz client">
+        </li>
+        <li>
+          <img src="./assets/images/client-audiophile.svg" alt="audiophile client">
+        </li>
+        <li>
+          <img src="./assets/images/client-meet.svg" alt="maker client">
+        </li>
+        <li>
+          <img src="./assets/images/client-maker.svg" alt="meet client">
+        </li>
+      </ul>
+    </article>
+
+    <div class="banner">
+      <img class="banner-desktop" src="./assets/images/image-hero-desktop.png" alt="banner photo">
+      <img class="banner-mobile" src="./assets/images/image-hero-mobile.png" alt="banner photo">
+    </div>
+  </main>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
